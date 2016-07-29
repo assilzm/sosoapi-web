@@ -39,10 +39,6 @@
 	                                </h4>
 	                            </div>
 	                            <div id="collapse1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-	                                <div class="panel-body">
-	                                	<p>&nbsp;&nbsp;SosoApi开发者交流群：305629848</p>
-                    					<p>SwagggerUI技术交流群：482162806</p>
-                    				</div>
 	                            </div>
 	                        </div>
 	                        
@@ -56,11 +52,6 @@
 	                            </div>
 	                            <div id="collapse2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
 	                                <div class="panel-body">
-	                                	<p>您可以通过如下方式与我们联系。</p>
-					                    <ul>
-					                    	<li>邮箱：3259073638@qq.com</li>
-					                    	<li>&nbsp;&nbsp;&nbsp;qq：3259073638</li>
-					                    </ul>
 	                                </div>
 	                            </div>
 	                        </div>

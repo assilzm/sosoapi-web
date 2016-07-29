@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- 全局变量设置 -->
 	<properties>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<encoding.charset>UTF-8</encoding.charset>
 		<spring.version>4.0.1.RELEASE</spring.version>
 	</properties>
@@ -15,22 +15,23 @@
 	<!-- 发布组件到私服上 -->
 	<distributionManagement>
 		<snapshotRepository>
-			<id>SosoApiSnapshots</id>
-			<url>http://localhost:4080/nexus/content/repositories/SosoApiSnapshots</url>
+			<id>snapshots</id>
+			<url>http://10.3.4.240:8082/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 
 		<repository>
-			<id>SosoApiReleases</id>
-			<url>http://localhost:4080/nexus/content/repositories/SosoApiReleases</url>
+			<id>releases</id>
+			<url>http://10.3.4.240:8082/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
+
 
 	<!-- 从私服上下载构件 -->
 	<repositories>
 		<repository>
 			<id>PublicRepositories</id>
 			<name>PublicRepositories</name>
-			<url>http://localhost:4080/nexus/content/groups/public/</url>
+			<url>http://10.3.4.240:8082/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -47,7 +48,7 @@
 		<pluginRepository>
 			<id>PublicRepositories</id>
 			<name>PublicRepositories</name>
-			<url>http://localhost:4080/nexus/content/groups/public/</url>
+			<url>http://10.3.4.240:8082/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -63,7 +64,7 @@
 			<artifactId>base-util</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.dev</groupId>
 			<artifactId>base-mybatis</artifactId>

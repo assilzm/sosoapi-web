@@ -135,9 +135,6 @@
                         </li>
                     </ul>
                     
-                    <div class="navbar-right" style="margin-top:15px;">
-						技术交流群:<a href="javascript:void(0);" class="text-muted text-center">305629848</a>
-					</div>
                 </div>
             </div>
         </div>
